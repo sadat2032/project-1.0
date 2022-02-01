@@ -1,0 +1,77 @@
+/* Common Css Start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+ul{
+    list-style-type: none;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* Common css End */
+
+/* Nav Css Start */
+nav{
+    background-color: black;
+    
+
+}
+nav > .container > .row{
+    align-items: center;
+}
+nav .logo{
+    width: 20%;
+    
+
+}
+nav .logo img{
+    display: block;
+    
+}
+nav li{
+    display: inline-block;
+}
+nav .menu{
+    width: 80%;
+    text-align: right;
+}
+nav .menu ul li{
+    display: inline-block;
+    margin: 12px 0;
+}
+nav .menu ul li a{
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 40px 18px;
+    transition: all .3s linear;
+
+
+}
+
+nav .menu ul li:hover a{
+    color: #4bcaff;
+}
+
+
+
+
+
+
+/* NAv Css End */
